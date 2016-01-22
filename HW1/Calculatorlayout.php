@@ -17,8 +17,7 @@ border:none
 			<td colspan=5><input type=text Name="display"></td>
 		</tr>
 		<tr>
-		<td>&nbsp;</td>
-			<td>&nbsp;</td>
+		
 			<td colspan="2"><input type="button" value="Clear"></td>
 			<td><input type=button value="="></td>
 			<td><input type=button value="+/-"></td>
