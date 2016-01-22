@@ -36,7 +36,7 @@ devices are blurring even these lines.</p>
 <p>Hello World !! <sup>Hello World !!</sup> Hello World !!<p>
 
 <p>
-<a href="/WEBFRONT/Table.php">Table</a>
+<a href="Table.php">Table</a>
 </p>
 <a href="index.php">Top </a>
 
