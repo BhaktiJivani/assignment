@@ -1,11 +1,41 @@
 /* CSS Document */
 
-body {color: white; 
-}
+#main{
+background: linear-gradient(to right, #373E3E ,#525E5E, #373E3E);
+width:700px;
 
-div{
-
-border:1px solid white;
-background: black;
 
 }
+ 
+input.new, select{
+width: 173px;
+}
+
+
+
+.solidline{
+display:block;
+width:90%;
+margin:auto;
+border-bottom:3px solid #727272;
+}
+
+body{
+color:white;
+}
+ 
+#button{
+background-color:yellow;
+width: 80px;
+ display: block;
+    width: 165px;
+    height: 42px;
+    background: #ffff00;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ 
