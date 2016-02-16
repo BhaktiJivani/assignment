@@ -1,0 +1,47 @@
+
+<html>
+  <head>
+    <script>
+function WebSocketTest(){
+ if (window.WebSocket){
+    alert("WebSocket is supported by your Browser!");
+      var host = location.origin.replace(/^http/, 'ws');
+      var ws = new WebSocket(host);
+      ws.onopen = function()
+     {
+	   var msg="Hello Socket!";
+                ws.send(msg);
+        alert("Message is sent : " + msg);
+     }; 
+
+     ws.onmessage = function (evt) 
+               { 
+                  var received_msg = evt.data;
+                  alert("Message is received : " + evt.data);
+               };
+
+
+     ws.onclose = function()
+     { 
+
+        alert("Connection is closed..."); 
+     };
+
+     ws.onerror = function()
+     { 
+        
+        alert("WebSocket error..."); 
+     };
+
+}
+else {
+        alert("WebSocket NOT supported by your Browser!");
+      }
+}
+    </script>
+  </head>
+  <body>
+    <a href="javascript:WebSocketTest()">Run WebSocket</a>
+    <ul id='pings'></ul>
+  </body>
+</html>
