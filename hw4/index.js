@@ -20,7 +20,7 @@ wss.on("connection", function(ws) {
   console.log("websocket connection open")
 ws.on('message', function incoming(message) {
     console.log('received: %s', message)
-	message = "i m fine!???"
+	message = "i m fine!!!!!!!!!!!"
 	ws.send(message);
     console.log('message sent: %s', message)
 
