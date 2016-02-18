@@ -9,7 +9,7 @@ function WebSocketTest(){
       var ws = new WebSocket(host);
       ws.onopen = function()
      {
-	   var msg="How r u?!";
+	   var msg="Hello server?!";
                 ws.send(msg);
         alert("Message is sent : " + msg);
      }; 
