@@ -11,6 +11,7 @@ io.on('connection', function(socket){
     io.emit('chat message', msg);
   });
 });
-http.listen(3000, function(){
-  console.log('listening on *:4050');
+var port = process.env.PORT || 4000; 
+http.listen(port, function () {
+    console.log('listening on *:http://localhost:3000');
 });
