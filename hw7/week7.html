@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>week 7 homework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+
+.btn-primary.gradient:hover, .btn-primary.gradient:focus, .btn-primary.gradient:active, .btn-primary.gradient.active, .open > .dropdown-toggle.btn-primary {
+    background: -moz-linear-gradient(top,  #F3E30D 50%, #EDF91B 50%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#F3E30D), color-stop(50%,#EDF91B)); 
+    background: -webkit-linear-gradient(top,  #F3E30D 50%,#EDF91B 50%); 
+    background: -o-linear-gradient(top,  #F3E30D 50%,#EDF91B 50%);
+    background: -ms-linear-gradient(top,  #F3E30D 50%,#EDF91B 50%); 
+    background: linear-gradient(to bottom,  #F3E30D 50%,#EDF91B 50%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F3E30D', endColorstr='#EDF91B',GradientType=0 ); 
+}
+.btn-primary.gradient:active, .btn-primary.gradient.active {
+    background: -moz-linear-gradient(top,  #F3E30D 50%, #EDF91B 50%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#F3E30D), color-stop(50%,#EDF91B)); 
+    background: -webkit-linear-gradient(top,  #F3E30D 50%,#EDF91B 50%); 
+    background: -o-linear-gradient(top,  #F3E30D 50%,#EDF91B 50%); 
+    background: -ms-linear-gradient(top,  #F3E30D 50%,#EDF91B 50%); 
+    background: linear-gradient(to bottom,  #F3E30D 50%,#EDF91B 50%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F3E30D', endColorstr='#EDF91B',GradientType=0 ); 
+}
+
+.btn-primary.gradient {
+    background: -moz-linear-gradient(top,  #EDF91B 50%, #EDF91B 50%); 
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#EDF91B), color-stop(50%,#EDF91B)); 
+    background: -webkit-linear-gradient(top,  #EDF91B 50%,#EDF91B 50%);
+    background: -o-linear-gradient(top,  #EDF91B 50%,#EDF91B 50%); 
+    background: -ms-linear-gradient(top,  #EDF91B 50%,#EDF91B 50%); 
+    background: linear-gradient(to bottom,  #EDF91B 50%,#EDF91B 50%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EDF91B', endColorstr='#EDF91B',GradientType=0 ); 
+}
+
+</style>
+</head>
+<body style=" color:#FFFFFF">
+  <div class="container-fluid" style="background:linear-gradient(to right, #373E3E ,#525E5E, #373E3E); width:60%;"> 
+  
+  		 <div class="row" style="padding:.5em;">
+         	<div class="col-sm-1 col-xs-1">
+            	<img src="pdf.png" width="38" height="45" align="absmiddle"> 
+            </div>
+            <div class="col-sm-11 col-xs-11" style="font-size:20px;">
+            Please fill out this form below to begin downloading.
+            </div>
+         </div>
+                 <hr>
+    		 <div class="row" style="padding:.5em;">
+		<div class="col-sm-6 col-xs-6">
+        	<div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	First Name:*
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>    
+        <div class="col-sm-6 col-xs-6">    
+            <div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Company:*
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+   </div>
+   
+  		 <div class="row" style="padding:.5em;">
+		<div class="col-sm-6 col-xs-6">
+        	<div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Last Name:*
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>    
+        <div class="col-sm-6 col-xs-6">    
+            <div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Website:*
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+   </div>
+   
+  		 <div class="row" style="padding:.5em;">
+		<div class="col-sm-6 col-xs-6">
+        	<div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Email:*
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>    
+        <div class="col-sm-6 col-xs-6">    
+            <div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Position:
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	                <select class="form-control" id="sel1">
+                    <option>--Select One</option>
+                    <option>Web Developer</option>
+                    <option>Software Engineer</option>
+					 <option>Java Developer</option>
+                    <option>Web designer</option>
+					 <option>Graphics Designer</option>
+                    <option>Marketing Head</option>
+                </select>
+                </div>
+            </div>
+        </div>
+   </div>
+   
+   		 <div class="row" style="padding:.5em;">
+		<div class="col-sm-6 col-xs-6">
+        	<div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Password:
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>    
+        <div class="col-sm-6 col-xs-6">    
+            <div class="row">
+            	<div class="col-sm-4 col-xs-4">
+                	Phone:*
+                </div>
+                <div class="col-sm-8 col-xs-8">
+                	<input type="text" class="form-control">
+                </div>
+            </div>
+        </div>
+   </div>
+   		 
+         <div class="row" style="padding:.5em;">
+			<div class="col-sm-12 col-xs-12">
+        		* Setting a password will allow you to log back in and see our documents any time.
+            </div>
+        </div>
+   
+   		 <hr>
+         
+         <div class="row" style="padding:.3em;">
+			<div class="col-sm-12 col-xs-12">
+        		PRIMARY services or product of Interest:* 
+          <div class="row" style="padding-top:.3em;">
+			<div class="col-sm-4 col-xs-4">               
+                <select class="form-control" id="sel1">
+                    <option>--Select One</option>
+                    <option>Web development</option>
+                    <option>E-Commerce</option>
+					<option>Finance</option>
+                    <option>Marketing</option>
+					
+                </select>
+                </div></div>
+            </div>
+        </div>
+   
+   		 <div class="row" style="padding:.3em;">
+			<div class="col-sm-12 col-xs-12">
+        		OTHER services or product of Interest:
+				<div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Online Strategy</label>
+				</div>
+				<div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Web Design and Development</label>
+				</div>
+				<div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Social Networking and Online Community</label>
+				</div>              	
+				<div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Integrated Online Campaigns</label>
+				</div>                
+				<div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Email Marketing Services(Strategy,Design,Development)</label>
+				</div>                
+				<div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Email Marketing Software</label>
+				</div>                
+                
+                
+                
+                			
+            </div>
+        </div>		
+        
+         <hr>
+         
+         <div class="row" style="padding:.3em;">
+			<div class="col-sm-12 col-xs-12">
+        		<strong>When are you looking to Implement a solution? *</strong>
+          <div class="row" style="padding-top:.3em;">
+			<div class="col-sm-4 col-xs-4">               
+                <select class="form-control" id="sel1">
+                    <option>--Select One</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+					<option>Java</option>
+                    <option>PHP</option>
+					<option>NODE JS</option>
+                    <option>RUBY ON RAILS</option>
+					
+					
+                </select>
+                </div></div>
+            </div>
+        </div>
+        
+         <hr>
+         
+         <div class="row" style="padding:.3em;">
+			<div class="col-sm-12 col-xs-12">
+        		<strong>Yes Subscribe to the  website</strong> <br>
+          <div class="checkbox" style="padding:.3em;">
+  					<label><input type="checkbox" value="">Receive feature and best practice articles on email marketing, Interactive design and online strategy.</label><br><br>
+					<button type="button" class="btn btn-warning">Save</button>
+                   
+				</div>
+            </div>
+        </div>
+         
+   </div>
+   
+</body>
+</html>
